@@ -25,3 +25,7 @@ tiempo_vacio_promedio = 100 - otros_cursos_promedio * 1000 // crudo_promedio / 1
 tiempo_vacio_dalto = 100 - curso_dalto * 1000 // crudo_dalto / 10
 print(f'Un curso en promedio elimina un {tiempo_vacio_promedio}% de tiempo vacio')
 print(f'Este curso eliminó un {tiempo_vacio_dalto}% de sus videos')
+
+#Mostramos diferencias si los cursos duraran 10 horas
+print(f'Ver 10 horas de este curso equivale a ver {otros_cursos_promedio * 100 // curso_dalto / 10} horas de otros cursos')
+print(f'Ver 10 horas de otros cursos equivale a ver {curso_dalto *100 // otros_cursos_promedio / 10} horas de este curso')

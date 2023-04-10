@@ -9,7 +9,7 @@ for animal in animales:
 
 for numero in numeros :
 	resultado = numero * 10
-	print(f'cada numero de la lista se multiplicara por 10 lo cual el resultado sera: {resultado}')
+	print(f'cada numero de la lista se multiplicara por 10 lo cual el resultado será: {resultado}')
 
 
 #el siguiente formato es para iterar a dos listas al mismo tiempo 
@@ -23,9 +23,9 @@ for rango in range(10):
 	print(f'usando como único parametro el 10 {rango}')
 
 for rango in range(70,100):
-	print(f'usando como parametro inicial el numero 20 y como parametro final el 100 {rango}')
+	print(f'usando como parametro inicial el numero 70 y como parametro final el 100 {rango}')
 
-#forma no optima de recorrer una lista con su indice
+#forma no optima de recorrer una lista con su indice (no funciona en conjuntos)
 for num in range (len(numeros)):
 	print(numeros[num])
 
@@ -34,3 +34,12 @@ for num in enumerate(numeros):
 	indice = num[0]
 	valor = num[1]
 	print(f'El indice es: {indice}  y el valor es: {valor}')
+
+#También existe una forma de recorrer la lista usando for/else de la siguiente manera:
+for numero in numeros:
+	print(f'Ejecutando el ultimo bucle actual: {numero}')
+else:
+	print(f'El bucle terminó.')
+
+
+#Los conjuntos se pueden iterar al igual que las listas/tuplas, sin embargo estos no aceptaran la funcion de range(len()) encambio las tuplas si lo ejecutan.

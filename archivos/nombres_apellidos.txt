@@ -1,0 +1,13 @@
+los datos son: 
+Nombre:brandon
+Apellidos:moreno
+-----------------------
+Nombre:paul
+Apellidos:moreno
+-----------------------
+Nombre:mauricio
+Apellidos:mercedez
+-----------------------
+Nombre:juan
+Apellidos:benitez
+-----------------------
